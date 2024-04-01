@@ -1,0 +1,38 @@
+{
+  "name": "nodebasic",
+  "version": "1.0.0",
+  "description": "Basic Node Js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=development &&SET MONGO_USER=marioreyhan&&SET MONGO_PASSWORD=babanggoreng&&SET MONGO_DEFAULT_DATABASE=Shop&&SET STRIPE_KEY=sk_test_51OX3BVLSRied02XIpgfnjO4udg8kBSEJlGroQupAPJynaEHs4ADW39EK6OL1IMl1wlbZ2eYbjaGVdCqKQxXxnksp00xDxepRFK&& node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Mario",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.1",
+    "pdfkit": "^0.14.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.35.2",
+    "stripe": "^14.11.0"
+  }
+}
